@@ -11,3 +11,21 @@
 *.lai
 *.la
 *.a
+
+# CMake build directories, if you call em build
+build/
+
+#common editor swap files
+*~
+*.kate-swp
+*.swp
+
+#kdevelop local configuration
+.kdev4
+
+#Debian build system creates those directories:
+obj-*/
+
+# Debian build system's log files.
+# Not really meant to be comitted.
+debian/*.log
